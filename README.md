@@ -39,7 +39,8 @@ TECHNOLOGIES
   - Twilio 
 
 WIREFRAMES
-
+  - https://docs.google.com/document/d/1OpYoUQ9fp4q8cPLAZMZI5hIEpVeuOl2Wu6TkOgUqnPk/edit?usp=sharing
+  
 
 COLOR PALETTE 
   - grey
