@@ -10,7 +10,7 @@ RULES OF THE DEADPOOL
   - If predicted dead, which episode will they die (1 point if correct)
   - If predicted dead, will the character be revived as a white walker (1 point if correct)
   - Bonus questions:
-      - Who officially takes the Iron Throne at the final episode? (6 points)
+      - Who officially takes the Iron Throne at the final episode? (25 points)
       - Will Danearys have Jon Snow’s child? (2 points)
       - Who kills the Night King? (if anyone) (2 points)
       - Will the Hound and the Mountain battle it out? (2 points) If yes, who will win? (2 points)
