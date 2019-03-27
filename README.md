@@ -22,7 +22,12 @@ ERD
   - https://docs.google.com/drawings/d/1sdzy3MoqT0I385m6IKUXi0Zp-IIrgEpWzZB6-HxRP-w/edit?usp=sharing
 
 SERVER ROUTE PLAN
-
+  - home page render (get)
+  - create team (post)
+  - ballot form (get)
+  - ballot submission (post)
+  - delete a team (delete)
+  
 
 TECHNOLOGIES
   - Game of Thrones API
@@ -37,6 +42,11 @@ WIREFRAMES
 
 
 COLOR PALETTE 
-
+  - grey
+  - white
+  - gold
+  - red
+  - soft blue
 
 TRELLO BOARD WITH USER STORIES
+  - https://trello.com/b/7DuU78Y3/got-deadpool 
