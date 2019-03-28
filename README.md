@@ -1,9 +1,7 @@
 # deadpool-front
 
 PROBLEM STATEMENT
-  - One of the most widely anticipated final series season, Game of Thrones season 8, is upon us
-  - We all want to know, who will take the iron throne? Who will defeat the white walker king, if anyone
-  - Fantasy leagues are very popular, so create a team and compete against your friends
+   One of the most widely anticipated final series season, Game of Thrones season 8, is upon us. We all want to know, who will take the iron throne? Who will defeat the white walker king, if anyone? Fantasy leagues are very popular, so create a team and compete against your friends
 
 RULES OF THE DEADPOOL
   - Predict if a character is dead or alive by the season finale (3 points if correct)
@@ -20,6 +18,7 @@ RULES OF THE DEADPOOL
 
 ERD
   - https://docs.google.com/drawings/d/1sdzy3MoqT0I385m6IKUXi0Zp-IIrgEpWzZB6-HxRP-w/edit?usp=sharing
+  
 
 SERVER ROUTE PLAN
   - home page render (get)
@@ -38,8 +37,7 @@ TECHNOLOGIES
   - PostgreSQL
   - Twilio 
 
-WIREFRAMES
-  - https://docs.google.com/document/d/1OpYoUQ9fp4q8cPLAZMZI5hIEpVeuOl2Wu6TkOgUqnPk/edit?usp=sharing
+[WIREFRAMES](https://docs.google.com/document/d/1OpYoUQ9fp4q8cPLAZMZI5hIEpVeuOl2Wu6TkOgUqnPk/edit?usp=sharing)
   
 
 COLOR PALETTE 
@@ -49,5 +47,4 @@ COLOR PALETTE
   - red
   - soft blue
 
-TRELLO BOARD WITH USER STORIES
-  - https://trello.com/b/7DuU78Y3/got-deadpool 
+[TRELLO BOARD WITH USER STORIES](https://trello.com/b/7DuU78Y3/got-deadpool)
