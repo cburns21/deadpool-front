@@ -41,10 +41,10 @@ TECHNOLOGIES
   
 
 COLOR PALETTE 
-  - grey
-  - white
-  - gold
-  - red
-  - soft blue
+  - grey #595752
+  - white #F7F9F9
+  - gold #C9A75C
+  - red #6D2828
+  - soft blue #88AOA8
 
 [TRELLO BOARD WITH USER STORIES](https://trello.com/b/7DuU78Y3/got-deadpool)
