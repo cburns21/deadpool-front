@@ -23,9 +23,9 @@ ERD
 SERVER ROUTE PLAN
   - team leaderboard (get) (/:teamname)
   - create team (post) (/:teamname)
-  - ballot form (get) (/:ballot)
-  - ballot submission (post) (/:ballot/:teamname)
-  - delete a team (delete) (:teamname)
+  - ballot form (get) (/ballot)
+  - ballot submission (post) (/ballot/:teamname)
+  - delete a team (delete) (/:teamname)
   
 
 TECHNOLOGIES
