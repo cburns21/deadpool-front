@@ -21,11 +21,11 @@ ERD
   
 
 SERVER ROUTE PLAN
-  - home page render (get)
-  - create team (post)
-  - ballot form (get)
-  - ballot submission (post)
-  - delete a team (delete)
+  - team leaderboard (get) (/:teamname)
+  - create team (post) (/:teamname)
+  - ballot form (get) (/:ballot)
+  - ballot submission (post) (/:ballot/:teamname)
+  - delete a team (delete) (:teamname)
   
 
 TECHNOLOGIES
