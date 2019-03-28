@@ -9,7 +9,7 @@
         <button type="button" class="btn-lg">Find Your Team</button>
       </div>
       <div id="audio" class="player-wrapper">
-        <audio controls>
+        <audio autoplay="autoplay">
         <source src="../assets/song.mp3"
         type="audio/mpeg"></audio>
       </div>
