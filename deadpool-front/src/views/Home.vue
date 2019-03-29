@@ -1,28 +1,30 @@
 <template>
   <div class="homepage">
       <div class="header">
-        <img alt="Vue logo" class="img-responsive" src="../assets/ironThrone.png">
+        <!-- <img alt="Vue logo" class="img-responsive" src="../assets/ironThrone.png"> -->
         <HelloWorld msg="The Game of Thrones Deadpool"/>
       </div>
-      <div class="buttons">
-        <button type="button" class="btn-lg">Create a Team</button>
-        <button type="button" class="btn-lg">Find Your Team</button>
-      </div>
+      <!-- <div class="buttons">
+        <!-- <button type="button" class="btn-lg">Create a Team</button> -->
+        <!-- <button type="button" class="btn-lg">Find Your Team</button>
+      </div> --> 
       <div id="audio" class="player-wrapper">
         <audio autoplay="autoplay">
         <source src="../assets/song.mp3"
         type="audio/mpeg"></audio>
       </div>
+      <createLeague/>
   </div>
 </template>
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
-
+import createLeague from '../components/createLeague.vue'
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    HelloWorld,
+    createLeague
   }
 }
 
@@ -37,8 +39,9 @@ export default {
   }
   .header {
     display: flex;
-    flex-grow: 2;
+    padding-bottom: 20%;
     text-shadow: 5px 5px black;
+    justify-content: center;
     -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 
@@ -93,12 +96,17 @@ export default {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-color: #595752; 
+    background-image: url(../assets/wall.png);
+    background-size: cover; 
+    font-family:'Cinzel Decorative', cursive;;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #88a0a8;
     /* justify-content: center; */
   }
  
 
 </style>
 
-	-webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+

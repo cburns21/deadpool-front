@@ -8,25 +8,13 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 #app {
-  font-family:'Cinzel Decorative', cursive;;
+  /* font-family:'Cinzel Decorative', cursive;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #88a0a8;
-  background-color: #595752
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #88a0a8;
-}
-
-#nav a.router-link-exact-active {
-  color: #6d2828;
+  color: #88a0a8; */
+  /* background-color: #595752 */
 }
 </style>
