@@ -21,7 +21,7 @@ export default {
         justify-content: center;
         width: 50%;
         border: black;
-        box-shadow: 5px 5px;
+        box-shadow: 5px 5px black;
         color: white;
     }
     .myButton {
