@@ -1,30 +1,31 @@
 <template>
     <div class="forms">
-        <form class="needs-validation" novalidate>
-            <div class="form-row">
+        <form novalidate>
+            <div>
                 <div class="name">
-                <label for="validationCustom01">Team Name</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="Team name" required>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
+                    <label for="validationCustom01">League Name:</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Team name" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
                 <div class="password">
-                <label for="validationCustom02">Team Password</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
-                <div class="valid-feedback">
-                    Looks good!
+                    <label for="validationCustom02">League Password:</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
-                <label for="validationCustom02">Confirm Password</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
-                <div class="valid-feedback">
-                    Looks good!
+                <div class="confirmPass">
+                    <label for="validationCustom02">Confirm Password:</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
-                </div>
-                
             </div>
-        <button class="btn-sm" type="submit">Submit form</button>
         </form>
+        <button class="btn-sm" type="submit">Create League</button>
     </div>
 
 <!-- <script>
@@ -57,14 +58,21 @@ export default {
 
 
 <style scoped>
-    .form-row {
+    .forms {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        background-color: #c9a75c;
+        height: 100vh;
+        width: 100vw;
     }
-    /* .forms {
+    .name, .password, .confirmPass {
         display: flex;
-        align-items: center;
-        align-content: center;
-    } */
+        flex-direction: row;
+    }
+    button {
+        align-self: center;
+        background-color: #88a0a8;
+    }
 </style>

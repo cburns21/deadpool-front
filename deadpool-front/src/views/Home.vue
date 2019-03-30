@@ -20,11 +20,13 @@
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
 import createLeague from '../components/createLeague.vue'
+import findTeam from '../components/findTeam.vue'
 export default {
   name: 'home',
   components: {
     HelloWorld,
-    createLeague
+    createLeague,
+    findTeam
   }
 }
 
@@ -40,7 +42,7 @@ export default {
   .header {
     display: flex;
     padding-bottom: 20%;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 5px #88a0a8;
     justify-content: center;
     -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -102,7 +104,7 @@ export default {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #88a0a8;
+    color: black;
     /* justify-content: center; */
   }
  
