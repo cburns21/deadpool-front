@@ -4,10 +4,6 @@
         <!-- <img alt="Vue logo" class="img-responsive" src="../assets/ironThrone.png"> -->
         <HelloWorld msg="The Game of Thrones Deadpool"/>
       </div>
-      <!-- <div class="buttons">
-        <!-- <button type="button" class="btn-lg">Create a Team</button> -->
-        <!-- <button type="button" class="btn-lg">Find Your Team</button>
-      </div> --> 
       <div id="audio" class="player-wrapper">
         <audio autoplay="autoplay">
         <source src="../assets/song.mp3"
@@ -20,13 +16,13 @@
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
 import createLeague from '../components/createLeague.vue'
-import findTeam from '../components/findTeam.vue'
+import findTeams from '../components/findTeams.vue'
 export default {
   name: 'home',
   components: {
     HelloWorld,
     createLeague,
-    findTeam
+    findTeams,
   }
 }
 

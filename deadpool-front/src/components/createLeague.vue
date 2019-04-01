@@ -1,7 +1,7 @@
 <template>
      <router-link :to="{ path: `create` }">
         <div class="myButton">
-            <button v-on:click="show = !show" type="button" class="btn-lg">Create a Team</button>
+            <button  type="button" class="btn-lg">Create a Team</button>
         </div>
     </router-link>
 </template>
