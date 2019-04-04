@@ -7,6 +7,21 @@
                 <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
             </div>
         </div>
+        <div class='cards'>
+           <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Do I die?<button>YES</button>
+                    <button>NO</button></li>
+                    
+                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">Am I revived as a White Walker?</li>
+                </ul>
+                </div>
+        </div>
     </div>
 </template>
 
@@ -30,4 +45,5 @@ export default {
         display: flex;
         flex-direction: column;
     }
+    
 </style>
