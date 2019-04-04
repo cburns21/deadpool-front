@@ -8,6 +8,13 @@
   </div>
 </template>
 
+<script>
+export default {
+  
+}
+</script>
+
+
 <style scoped>
 #app {
   /* font-family:'Cinzel Decorative', cursive;;

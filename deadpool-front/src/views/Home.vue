@@ -16,13 +16,13 @@
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
 import createLeague from '../components/createLeague.vue'
-import findTeams from '../components/findTeams.vue'
+// import findTeams from '../components/findTeams.vue'
 export default {
   name: 'home',
   components: {
     HelloWorld,
     createLeague,
-    findTeams,
+    // findTeams,
   }
 }
 
