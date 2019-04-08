@@ -1,7 +1,10 @@
 <template>
   <div class="homepage">
       <div class="header">
-        <HelloWorld msg="The Game of Thrones Deadpool"/>
+        <img src="../assets/GoT.png" alt="">
+      </div>
+      <div class='subheader'>
+        <strong>A Fantasy League</strong>
       </div>
       <div id="audio" class="player-wrapper">
         <audio autoplay="autoplay">
@@ -14,13 +17,11 @@
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
 import createLeague from '../components/createLeague.vue'
 import findYourTeam from '../components/findYourTeam.vue'
 export default {
   name: 'home',
   components: {
-    HelloWorld,
     createLeague,
     findYourTeam
   }
@@ -35,9 +36,13 @@ export default {
     max-width: 150px;
     float: left;
   }
+  .subheader {
+    font-weight: 900;
+    font-size: 30pt;
+    margin-bottom: 5%;
+  }
   .header {
     display: flex;
-    padding-bottom: 20%;
     text-shadow: 5px 5px #88a0a8;
     justify-content: center;
     -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

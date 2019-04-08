@@ -1,34 +1,35 @@
 <template>
     <div class="forms">
+        <div class='header'>Create a Team</div>
         <form novalidate>
             <div>
                 <div class="name">
-                    <label for="validationCustom01">League Name:</label>
+                    <label for="validationCustom01">League Name</label>
                     <input type="text" class="form-control" id="validationCustom01" placeholder="Team name" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="password">
-                    <label for="validationCustom02">League Password:</label>
+                    <label for="validationCustom02">League Password</label>
                     <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="confirmPass">
-                    <label for="validationCustom02">Confirm Password:</label>
+                    <label for="validationCustom02">Confirm Password</label>
                     <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class='addPlayers'>
-                    <label for="">Add Players by phone number: </label>
-                    <input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd">
+                    <label for="">Add Players by phone number </label>
+                    <input type="text" class="form-control" data-format="+1 (ddd) ddd-dddd">
                 </div>
                 <div class="deadpool">
-                    <label for="validationCustom02">Set the Deadpool:</label>
+                    <label for="validationCustom02">Set the Deadpool</label>
                     <input type="number" class="form-control" id="validationCustom02" placeholder="$$$" required>
                     <div class="valid-feedback">
                         Looks good!
@@ -77,6 +78,8 @@ export default {
         background-color: #88a0a8;
         height: 100vh;
         width: 100vw;
+        font-family:'Cinzel Decorative', cursive;
+        color: #595752;
     }
     .name, .password, .confirmPass {
         display: flex;
@@ -85,6 +88,16 @@ export default {
     button {
         align-self: center;
         background-color: #595752;
+        border: #595752;
         margin-top: 3%;
+        color: #c9a756;
+    }
+    .deadpool {
+        display: flex;
+        flex-direction: row;
+    }
+    .header {
+        padding-bottom: 5%;
+        font-size: 200%;
     }
 </style>

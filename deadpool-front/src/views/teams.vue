@@ -1,8 +1,9 @@
 <template>
   <div class="team">
     <h1>Team Log In</h1>
+    <div class='form-group'>
     <div class="name">
-      <h3>Pick Your League:</h3>
+      <h3>Pick Your League</h3>
       <div class="form-group">
         <select class="form-control">
          <option>League Name</option>
@@ -12,8 +13,9 @@
       </div>
     </div>
     <div class="password">
-      <h3>Enter League Password:</h3>
-      <input type="text">
+      <h3>Enter League Password</h3>
+      <input class="form-control" type="text" placeholder="Team Password">
+    </div>
     </div>
     <button class="btn-lg">Enter Westeros</button>
   </div>
@@ -38,23 +40,32 @@ h1 {
   width: 100wh;
   height: 100vh;
   flex-direction: column;
+  font-family:'Cinzel Decorative', cursive;
 }
 .password {
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .name {
    display: flex;
    justify-content: center;
    padding: 5%;
+   color: #f7f9f9;
 }
 h3 {
   padding-right: 2%;
+  color: #f7f9f9;
 }
 .btn-lg {
   /* display: flex; */
   background-color: #88a0a8;
   align-self: center;
+  border: #88a0a8;
+}
+.form-group {
+   display: flex;
+   flex-direction: column;
 }
 </style>

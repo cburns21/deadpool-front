@@ -6,6 +6,11 @@
                 <label class='name' for="validationCustom01">Your name</label>
                 <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
             </div>
+            <div>
+                 <h6>Do I Die? (4 points)</h6>
+                <h6>Which Episode? (2 points)</h6>
+                <h6>Am I Revived as a White Walker? (2 points)</h6>
+            </div>
         </div>
         <!-- <div class="card-list">
             <individualCard v-for='characters in characters'
@@ -536,7 +541,15 @@
                 </ul>
             </div>
         </div>
-        <button class='btn-lg'>Submit</button>
+        <div class='questions'>
+            <h5>Who holds the Iron Throne at the end of the series? (20 Points) <input type="text"></h5>
+            <h5>Will Danearys have Jon Snow's child? (2 Points) <input type="text"></h5>
+            <h5>Who kills the night king, if anyone? (2 Points) <input type="text"></h5>
+            <h5>Will the Hound and the Mountain battle it out? (2 Points) <input type="text"></h5>
+        </div>
+        <div class='bigButton'>
+            <button class='btn-lg'>Submit</button>
+        </div>
     </div>
 </template>
 
@@ -555,15 +568,44 @@ export default {
     h1 {
         display:flex;
         justify-content: center;
+        color: #f7f9f9;
+    }
+    .questions {
+        color: #f7f9f9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3%;
+    }
+    .topBallot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* width: 50vw; */
+        color: #f7f9f9;
     }
     .yourName {
         display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        /* justify-content: space-between; */
+    }
+    .name {
+        width: 25vw;
+    }
+    h6 {
+        display: flex;
         flex-direction: row;
-        align-content: center;
-        width: 50vw;
+        justify-content: space-around;
+
     }
     button {
         background-color: #595752;
+        border: #595752;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    
     }
    .cards {
        display: flex;
@@ -579,6 +621,7 @@ export default {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        font-family:'Cinzel Decorative', cursive;
    }
    img {
        width: 100%;
@@ -587,9 +630,21 @@ export default {
    li {
        background-color: #88a0a8;
    }
-   .btn-lg {
+   .bigButton {
        display: flex;
        justify-content: center;
+   }
+   .btn-lg {
+       display: flex;
+       justify-content: space-around;
+       width: 50vw;
+       margin-top: 3%;
+       margin-bottom: 3%;
        background-color: #6d2828;
+       border: #6d2828;
+   }
+   .card-title {
+       display: flex;
+       justify-content: center;
    }
 </style>
