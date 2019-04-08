@@ -23,6 +23,17 @@
                         Looks good!
                     </div>
                 </div>
+                <div class='addPlayers'>
+                    <label for="">Add Players by phone number: </label>
+                    <input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd">
+                </div>
+                <div class="deadpool">
+                    <label for="validationCustom02">Set the Deadpool:</label>
+                    <input type="number" class="form-control" id="validationCustom02" placeholder="$$$" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
             </div>
         </form>
         <button class="btn-sm" type="submit">Create League</button>

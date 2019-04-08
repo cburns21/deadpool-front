@@ -1,7 +1,6 @@
 <template>
   <div class="homepage">
       <div class="header">
-        <!-- <img alt="Vue logo" class="img-responsive" src="../assets/ironThrone.png"> -->
         <HelloWorld msg="The Game of Thrones Deadpool"/>
       </div>
       <div id="audio" class="player-wrapper">
@@ -16,13 +15,13 @@
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
 import createLeague from '../components/createLeague.vue'
-// import findTeams from '../components/findTeams.vue'
+import findYourTeam from '../components/findYourTeam.vue'
 export default {
   name: 'home',
   components: {
     HelloWorld,
     createLeague,
-    // findTeams,
+    findYourTeam,
   }
 }
 
