@@ -23,16 +23,14 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     <li class="list-group-item">In which episode do I die?
-                        <!-- <div class="dropdown">
-                            <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span id="selected">Chose option</span><span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Episode 1</a></li>
-                            <li><a href="#">Episode 2</a></li>
-                            <li><a href="#">Episode 3</a></li>
-                            <li><a href="#">Episode 4</a></li>
-                        </ul>
-                        </div> -->
+                       <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
                     </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
@@ -46,7 +44,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -59,7 +66,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -72,7 +88,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -85,7 +110,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -98,7 +132,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div><div class="card" style="width: 18rem;">
@@ -110,7 +153,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div><div class="card" style="width: 18rem;">
@@ -122,7 +174,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div><div class="card" style="width: 18rem;">
@@ -134,7 +195,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div><div class="card" style="width: 18rem;">
@@ -146,7 +216,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div><div class="card" style="width: 18rem;">
@@ -158,7 +237,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div><div class="card" style="width: 18rem;">
@@ -170,7 +258,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -183,7 +280,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -196,7 +302,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -209,7 +324,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -222,7 +346,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -235,7 +368,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -248,7 +390,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -261,7 +412,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -274,7 +434,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -287,7 +456,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -300,7 +478,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -313,7 +500,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -326,7 +522,16 @@
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
                     
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <select class="form-control">
+                        <option>Episode 1</option>
+                        <option>Episode 2</option>
+                        <option>Episode 3</option>
+                        <option>Episode 4</option>
+                        <option>Episode 5</option>
+                        <option>Episode 6</option>
+                        </select>
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -343,9 +548,7 @@ export default {
     },
  props: ['characters']
 } 
-// ('.dropdown-menu a').click(function(){
-//     $('#selected').text($(this).text());
-//   });
+
 </script>
 
 <style scoped>
@@ -356,8 +559,8 @@ export default {
     .yourName {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        /* width: 50%; */
+        align-content: center;
+        width: 50vw;
     }
     button {
         background-color: #595752;
