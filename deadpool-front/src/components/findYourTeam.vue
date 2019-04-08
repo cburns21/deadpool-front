@@ -1,11 +1,11 @@
 <template>
-     <!-- <router-link :to="{ path: 'teams' }">
+     <router-link :to="{ path: 'teams' }">
         <div class="myButton">
             <button  type="button" class="btn-lg">Find Your Team</button>
         </div>
-    </router-link> -->
-    <router-link to="/teams">
-    Teams</router-link>
+    </router-link>
+    <!-- <router-link to="/teams">
+    Teams</router-link> -->
 </template>
 
 <script>

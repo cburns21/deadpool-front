@@ -9,6 +9,7 @@
         type="audio/mpeg"></audio>
       </div>
       <createLeague/>
+      <findYourTeam/>
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default {
   components: {
     HelloWorld,
     createLeague,
-    findYourTeam,
+    findYourTeam
   }
 }
 

@@ -10,9 +10,9 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      responses: null,
+      ballotResponses: null,
       players: null,
       leagues: null,
       characters: null 
@@ -23,7 +23,7 @@ export default {
     getResponses() {
       fetch('http://localhost:3000/responses')
       .then(resp => resp.json())
-      .then(resp => this.responses = resp)
+      .then(resp => this.ballotResponses = resp)
     },
     getPlayers() {
       fetch('http://localhost:3000/players')
@@ -42,7 +42,7 @@ export default {
     }
   },
   mounted() {
-    this.responses()
+    this.ballotResponses()
     this.players()
     this.leagues()
     this.characters()

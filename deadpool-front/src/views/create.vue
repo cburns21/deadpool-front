@@ -36,7 +36,7 @@
                 </div>
             </div>
         </form>
-        <button class="btn-sm" type="submit">Create League</button>
+        <button class="btn-lg" type="submit">Create League</button>
     </div>
 
 <!-- <script>
@@ -74,7 +74,7 @@ export default {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #c9a75c;
+        background-color: #88a0a8;
         height: 100vh;
         width: 100vw;
     }
@@ -84,6 +84,7 @@ export default {
     }
     button {
         align-self: center;
-        background-color: #88a0a8;
+        background-color: #595752;
+        margin-top: 3%;
     }
 </style>

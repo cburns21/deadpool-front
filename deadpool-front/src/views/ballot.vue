@@ -22,8 +22,18 @@
                 <ul class="list-group">
                     <li class="list-group-item">Do I die?<button>YES</button>
                     <button>NO</button></li>
-                    
-                    <li class="list-group-item">In which episode do I die?</li>
+                    <li class="list-group-item">In which episode do I die?
+                        <!-- <div class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span id="selected">Chose option</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Episode 1</a></li>
+                            <li><a href="#">Episode 2</a></li>
+                            <li><a href="#">Episode 3</a></li>
+                            <li><a href="#">Episode 4</a></li>
+                        </ul>
+                        </div> -->
+                    </li>
                     <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
@@ -321,18 +331,21 @@
                 </ul>
             </div>
         </div>
-        <button class='submit'>Submit</button>
+        <button class='btn-lg'>Submit</button>
     </div>
 </template>
 
 <script>
 import individualCard from '../components/individualCard.vue'
 export default {
-    components: {
+  components: {
     individualCard
     },
  props: ['characters']
 } 
+// ('.dropdown-menu a').click(function(){
+//     $('#selected').text($(this).text());
+//   });
 </script>
 
 <style scoped>
@@ -343,11 +356,37 @@ export default {
     .yourName {
         display: flex;
         flex-direction: row;
-        width: 50%;
+        justify-content: space-around;
+        /* width: 50%; */
+    }
+    button {
+        background-color: #595752;
     }
    .cards {
        display: flex;
        flex-wrap: wrap;
        flex-direction: row;
+       justify-content: center;
    } 
+   .card {
+       background-color: #88a0a8;
+   }
+   .wholeBallot {
+       background-color: #595752;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+   }
+   img {
+       width: 100%;
+       height: 425px;
+   }
+   li {
+       background-color: #88a0a8;
+   }
+   .btn-lg {
+       display: flex;
+       justify-content: center;
+       background-color: #6d2828;
+   }
 </style>
