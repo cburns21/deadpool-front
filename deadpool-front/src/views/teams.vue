@@ -14,7 +14,7 @@
     </div>
     <div class="password">
       <h3>Enter League Password</h3>
-      <input class="form-control" type="text" placeholder="Team Password">
+      <input class="form-control" type="password" placeholder="Team Password">
     </div>
     </div>
     <teamButton/>

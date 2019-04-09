@@ -4,7 +4,7 @@
         <img src="../assets/GoT.png" alt="">
       </div>
       <div class='subheader'>
-        <strong>A Fantasy League</strong>
+        <strong>A Fantasy Finale</strong>
       </div>
       <div id="audio" class="player-wrapper">
         <audio autoplay="autoplay">
