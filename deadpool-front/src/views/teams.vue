@@ -17,13 +17,16 @@
       <input class="form-control" type="text" placeholder="Team Password">
     </div>
     </div>
-    <button class="btn-lg">Enter Westeros</button>
+    <teamButton/>
   </div>
 </template>
 
 <script>
+import teamButton from '../components/teamButton.vue'
 export default {
-   // props: ['leagues']
+   components: {
+     teamButton
+   }
 }
 </script>
 
