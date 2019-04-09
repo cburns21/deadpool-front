@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-    <router-view :ballotResponses='ballotResponses' :players='players' :leagues='leagues' :characters='characters' />
+    <router-view :leagueBallots='leagueBallots' />
   </div>
 </template>
 
@@ -12,40 +12,23 @@
 export default {
   data() {
     return {
-      ballotResponses: null,
-      players: null,
-      leagues: null,
-      characters: null 
+      leagueBallots: null,
+    
 
     }
   },
   methods: {
-    getResponses() {
-      fetch('http://localhost:3000/responses')
+    responses() {
+      fetch('http://localhost:3000/leagues/HouseHodor')
       .then(resp => resp.json())
-      .then(resp => this.ballotResponses = resp)
+      .then(resp => {
+      console.log(resp)
+      this.leagueBallots = resp})
     },
-    getPlayers() {
-      fetch('http://localhost:3000/players')
-      .then(resp => resp.json())
-      .then(resp => this.players = resp)
-    },
-    getLeagues() {
-      fetch('http://localhost:3000/leagues')
-      .then(resp => resp.json())
-      .then(resp => this.leagues = resp)
-    },
-    getCharacters() {
-      fetch('http://localhost:3000/characters')
-      .then(resp => resp.json())
-      .then(resp => this.characters = resp)
-    }
+  
   },
   mounted() {
-    this.ballotResponses()
-    this.players()
-    this.leagues()
-    this.characters()
+    this.responses()
   }
 }
 </script>

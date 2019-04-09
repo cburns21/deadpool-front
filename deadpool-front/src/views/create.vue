@@ -17,13 +17,6 @@
                         Looks good!
                     </div>
                 </div>
-                <div class="confirmPass">
-                    <label for="validationCustom02">Confirm Password</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                </div>
                 <div class='addPlayers'>
                     <label for="">Add Players by phone number </label>
                     <input type="text" class="form-control" data-format="+1 (ddd) ddd-dddd">

@@ -6,7 +6,7 @@
                 <label class='name' for="validationCustom01">Your name</label>
                 <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
             </div>
-            <div>
+            <div class='points'>
                  <h6>Do I Die? (4 points)</h6>
                 <h6>Which Episode? (2 points)</h6>
                 <h6>Am I Revived as a White Walker? (2 points)</h6>
@@ -569,6 +569,8 @@ export default {
         display:flex;
         justify-content: center;
         color: #f7f9f9;
+        padding-top: 3%;
+        padding-bottom: 3%
     }
     .questions {
         color: #f7f9f9;
@@ -598,7 +600,9 @@ export default {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
+    }
+    .points {
+        padding-bottom: 3%;
     }
     button {
         background-color: #595752;

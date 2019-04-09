@@ -28,6 +28,11 @@ export default new Router({
       path: '/teams',
       name: "Find Your Team",
       component: () => import('./views/teams.vue')
+    },
+    {
+      path: '/leaderboard',
+      name: "Your Team",
+      component: () => import('./views/leaderboard.vue')
     }
   ]
 })
