@@ -2,21 +2,21 @@
     <div class='fullPage'>
         <h1>House Hodor</h1>
         <div class='board'>
-            <ul class="list-group">
-                <li class="list-group-item">Player</li>
-                <li class="list-group-item">Zeke</li>
-                <li class="list-group-item">Michael</li>
-                <li class="list-group-item"> Diane</li>
-                <li class="list-group-item">Aimee</li>
-                <li class="list-group-item">Barr</li>
+            <ul class="scoreboard">
+                <h2 class='border-bottom'>Player</h2>
+                <h2>Zeke</h2>
+                <h2>Michael</h2>
+                <h2> Diane</h2>
+                <h2>Aimee</h2>
+                <h2>Barr</h2>
             </ul>
-            <ul class="list-group">
-                <li class="list-group-item">Total Points</li>
-                <li class="list-group-item">22</li>
-                <li class="list-group-item">16</li>
-                <li class="list-group-item">10</li>
-                <li class="list-group-item">9</li>
-                <li class="list-group-item">6</li>
+            <ul class="scoreboard2">
+                <h2 class='border-bottom'>Total Points</h2>
+                <h2 class='points'>22</h2>
+                <h2 class='points'>16</h2>
+                <h2 class='points'>10</h2>
+                <h2 class='points'>9</h2>
+                <h2 class='points'>6</h2>
             </ul>
         </div>
 
@@ -39,14 +39,23 @@ export default {
         padding-top: 25px;
         padding-bottom: 50px;;
         color: #595752;
-        font-weight: bold
+        font-weight: bold;
 
+    }
+    .border-bottom {
+        padding-bottom: 10px;
+        border-width: 4px !important;
     }
     .board {
         display: flex;
         flex-direction: row;
         font-family:'Cinzel Decorative', cursive;
-        background-color: transparent;
+        align-items: flex-end;
+    }
+    h2 {
+        color: white;
+        font-size: 30pt;
+        font-weight: bolder;
     }
     .fullPage {
         display: flex;
@@ -57,5 +66,8 @@ export default {
         background-size: cover; 
         height: 100vh;
         width: 100vw;
+    }
+    .points {
+        padding-left: 70pt;
     }
 </style>
