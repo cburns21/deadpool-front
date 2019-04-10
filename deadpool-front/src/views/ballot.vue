@@ -25,9 +25,9 @@
                     <h5 class="card-title">Jon Snow</h5>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">Do I die?<button>YES</button>
-                    <button>NO</button></li>
-                    <li class="list-group-item">In which episode do I die?
+                    <li class="list-group-item">Do I die?<button v-on:click="isHidden = true">YES</button>
+                    <button >NO</button></li>
+                    <li v-show="!isHidden" class="list-group-item">In which episode do I die?
                        <select class="form-control">
                         <option>Episode 1</option>
                         <option>Episode 2</option>
@@ -37,7 +37,7 @@
                         <option>Episode 6</option>
                         </select>
                     </li>
-                    <li class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
+                    <li v-show="!isHidden" class="list-group-item">Am I revived as a White Walker?<button>Yes</button><button>No</button></li>
                 </ul>
             </div>
             <div class="card" style="width: 18rem;">
@@ -560,7 +560,11 @@ export default {
     individualCard
     },
  props: ['characters']
-} 
+}
+// var isHidden = function (elem) {
+// 	elem.style.display = 'none';
+// };
+
 
 </script>
 
