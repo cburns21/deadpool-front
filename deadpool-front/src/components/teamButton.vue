@@ -1,9 +1,7 @@
 <template>
-    <router-link :to="{ path: 'leaderboard'}">
-        <div class='myButton'>
-            <button class="btn-lg">Enter Westeros</button> 
-        </div>
-    </router-link>   
+    <router-link class="link" v-bind:to="{name:'Your Team', params:{leagueName: this.leagueName}}" >
+        <button  class="btn-lg">Enter Westeros</button>
+    </router-link>
 </template>
 
 <script>
@@ -12,16 +10,10 @@ export default {
 }
 </script>
 
-<style scoped>
-    .btn-lg {
-    /* display: flex; */
-    background-color: #88a0a8;
-    align-items: center;
-    border: #88a0a8;
-    margin-top: 10px;
-    }
-    .myButton {
-        display: flex;
-        justify-content: center;
+<style>
+    button {
+        color: #595752;
+        background-color: #88a0a8;
+        border: #88a0a8;
     }
 </style>

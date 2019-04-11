@@ -1,6 +1,6 @@
 <template>
     <div class='fullPage'>
-        <h1>House Hodor</h1>
+        <h1>{{this.league.name}}</h1>
         <div class='board'>
             <ul class="scoreboard">
                 <h2 class='border-bottom'>Player</h2>

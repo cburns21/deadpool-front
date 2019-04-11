@@ -1,11 +1,11 @@
 <template>
   <div class="team">
-    <h1>Team Log In</h1>
+    <h1>League Log In</h1>
     <div class='form-group'>
     <div class="name">
-      <h3>Pick Your League</h3>
+      <h3>Find Your League</h3>
       <div class="form-group">
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select v-model="leagueName" class="form-control" id="exampleFormControlSelect1" >
          <leagueNames v-for='league in leagues' v-bind:key="'league' + league.id" v-bind:league='league'/>
        </select>
       </div>
@@ -15,13 +15,15 @@
       <div class="input-group">
         <input type="password" class="form-control is-invalid" id="validationServerUsername" placeholder="password" aria-describedby="inputGroupPrepend3" required>
         <div class="invalid-feedback">
-          Please enter your leage password.
+          Please enter your league password.
         </div>
       </div>
     </div>
-    </div>
-    <teamButton/>
   </div>
+    <teamButton />
+  </div>
+    
+
 </template>
 
 <script>
@@ -32,8 +34,24 @@ export default {
      teamButton,
      leagueNames
    },
-   props: ['leagues']
+   props: ['leagues'],
+  data () {
+    return {
+      button: 'this is the button',
+      leagueName: ''
+    }
+  },
+  computed: {
+     league: function() {
+      return this.leagues.filter(league => {
+        let leagueName = +this.$route.params.id
+        return leagueName === league.id
+      })[0]
+    },
+
+  }
 }
+
 </script>
 
 <style scoped>

@@ -91,5 +91,6 @@ export default {
         justify-content: space-between;
         margin-left: 25pt;
         margin-bottom: 20pt;
+        border: white;
     }
 </style>

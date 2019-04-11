@@ -1,7 +1,5 @@
 <template>
-
-        <option>{{league.name}}</option>
-       
+        <option>{{league.name}}</option>  
 </template>
 
 <script>

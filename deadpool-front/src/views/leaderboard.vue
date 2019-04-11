@@ -1,6 +1,8 @@
 <template>
     <div class='fullPage'>
-        <h1>House Hodor</h1>
+        <h1>
+            <!-- <this.leagueName/> -->
+        </h1>
         <div class='board'>
             <ul class="scoreboard">
                 <h2 class='border-bottom'>Player</h2>
@@ -19,14 +21,21 @@
                 <h2 class='points'>6</h2>
             </ul>
         </div>
-
     </div>
 </template>
 
 
 <script>
+import idLeaderboard from '../components/idLeaderboard.vue'
 export default {
-    
+    components: {
+        idLeaderboard
+    },
+    computed: {
+        created() {
+            this.leagueName=this.$params.route.leagueName
+        }
+    }
 }
 </script>
 
