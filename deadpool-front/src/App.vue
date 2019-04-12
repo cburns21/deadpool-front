@@ -14,8 +14,7 @@ export default {
     return {
       leagueBallots: null,
       leaguePlayers: null,
-      leagues: null 
-
+      leagues: null,
     }
   },
   methods: {
@@ -35,7 +34,8 @@ export default {
       fetch('http://localhost:3000/leagues')
       .then(resp => resp.json())
       .then(resp => {this.leagues = resp})
-    }
+    },
+ 
   },
   mounted() {
     this.responses()

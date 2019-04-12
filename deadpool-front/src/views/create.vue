@@ -4,14 +4,14 @@
         <form>
             <div class="name">
                 <label for="validationCustom01">League Name</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="Team name" required>
+                <input v-model="name" type="text" class="form-control" id="validationCustom01" placeholder="Team name" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>
             </div>
             <div class="password">
                 <label for="validationCustom02">League Password</label>
-                <input type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
+                <input v-model="password" type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>
@@ -31,14 +31,39 @@
                 </div>
             </div>
         </form>
-        <button class="btn-lg" type="submit">Create League</button>
+        <button v-on:click="postLeague" class="btn-lg" type="submit">Create League</button>
     </div>
 
 </template>
 
 <script>
+import VueResource from 'vue-resource'
+import Vue from 'vue'
+Vue.use(VueResource)
 export default {
-    
+  methods: {
+    postLeague() {
+      fetch('http://localhost:3000/leagues', {
+        method: 'POST',
+        body: JSON.stringify({
+          name: this.name,
+          password: this.password
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      }).then(res => res.json()).then(response => console.log('Success:', JSON.stringify(response))).catch(error => console.error('Error:', error))
+    }
+
+  },
+  data () {
+      return {
+          name: '',
+          password: ''
+      }
+  }
+  
+  
 }
 
 </script>
