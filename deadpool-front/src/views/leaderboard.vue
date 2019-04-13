@@ -1,7 +1,7 @@
 <template>
     <div class='fullPage'>
         <h1>
-            <!-- <this.leagueName/> -->
+           {{this.leagueName}}
         </h1>
         <div class='board'>
             <ul class="scoreboard">
@@ -31,10 +31,11 @@ export default {
     components: {
         idLeaderboard
     },
+    props: ['leagueName'],
     computed: {
-        created() {
-            this.leagueName=this.$params.route.leagueName
-        }
+        // created() {
+        //     this.leagueName=this.$params.route.leagueName
+        // }
     }
 }
 </script>

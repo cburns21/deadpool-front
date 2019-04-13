@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    props: ['league']
+    props: ['league', 'leagueName']
 }
 </script>
 

@@ -559,11 +559,27 @@ export default {
   components: {
     individualCard
     },
- props: ['characters']
+ props: ['characters'],
+  methods: {
+      postResponses() {
+        fetch('http://localhost:3000/responses', {
+            method: 'POST',
+            body: JSON.stringify({
+
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then(res => res.json()).then(response => console.log('Success:', JSON.stringify(response))).catch(error => console.error('Error:', error))
+      }
+    },
+  data () {
+      return {
+          
+      }
+  }
 }
-// var isHidden = function (elem) {
-// 	elem.style.display = 'none';
-// };
+
 
 
 </script>
