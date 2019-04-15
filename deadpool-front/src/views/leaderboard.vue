@@ -1,7 +1,8 @@
 <template>
     <div class='fullPage'>
         <h1>
-           {{this.leagueName}}
+           <!-- {{this.leagueName}} -->
+           House Hodor
         </h1>
         <div class='board'>
             <ul class="scoreboard">
@@ -20,6 +21,9 @@
                 <h2 class='points'>9</h2>
                 <h2 class='points'>6</h2>
             </ul>
+        </div>
+        <div class='deadpool'>
+            <h2>Total Deadpool: $100</h2>
         </div>
     </div>
 </template>
@@ -79,5 +83,10 @@ export default {
     }
     .points {
         padding-left: 70pt;
+    }
+    .deadpool {
+        color: white;
+        font-family:'Cinzel Decorative', cursive;
+        padding-top: 20pt;
     }
 </style>
