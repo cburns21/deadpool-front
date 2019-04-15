@@ -25,10 +25,10 @@
                     <h5 class="card-title">Jon Snow</h5>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item">Do I die?<button v-on:click="isHidden = true">YES</button>
+                    <li class="list-group-item">Do I die?<button>YES</button>
                     <button >NO</button></li>
                     <li v-show="!isHidden" class="list-group-item">In which episode do I die?
-                       <select class="form-control">
+                       <select v-model="jonEpisode" class="form-control">
                         <option>Episode 1</option>
                         <option>Episode 2</option>
                         <option>Episode 3</option>
@@ -575,7 +575,9 @@ export default {
     },
   data () {
       return {
-          
+          jonDie: false,
+          jonEpisode: '',
+          jonWalker: '',
       }
   }
 }
@@ -629,6 +631,7 @@ export default {
         border: #595752;
         margin-right: 2.5%;
         margin-left: 2.5%;
+        color: white;
     
     }
    .cards {
