@@ -16,15 +16,27 @@
                     Looks good!
                 </div>
             </div>
-            <div class='addPlayers'>
-                <label for="validationCustom03">Add Players</label>
-                <div class="phones">
-                    <input class="rounded" type="tel" size="3" maxlength="3" placeholder="555">- <input class="rounded" type="tel"  size="3" maxlength="3" placeholder="555"> -<input class="rounded" type="tel"  size="4" maxlength="4" placeholder="5555">
-                    <button type="button" class="btn-sm">Add More Players</button>
-                </div>
+            <div class='question'>
+                <label for="validationCustom03">How Many players would you like to invite?</label>
+                 <select class="form-control" >
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five</option>
+                    <option value="6">Six</option>
+                    <option value="7">Seven</option>
+                    <option value="8">Eight</option>
+                    <option value="9">Nine</option>
+                    <option value="10">Ten</option>
+                </select> 
+            </div>
+            <div class="phones">
+                <input class="rounded" type="tel" size="3" maxlength="3" placeholder="555">- <input class="rounded" type="tel"  size="3" maxlength="3" placeholder="555"> -<input class="rounded" type="tel"  size="4" maxlength="4" placeholder="5555">       
             </div>
             <div class="deadpool">
-                <label for="validationCustom02">Set the Deadpool</label>
+                <label for="validationCustom04">Set the Deadpool</label>
                 <input type="integer" class="form-control" id="validationCustom02" placeholder="$$$" required>
                 <div class="valid-feedback">
                     Looks good!
@@ -61,7 +73,12 @@ export default {
           name: '',
           password: ''
       }
-  }
+  },
+//   methods: {
+//       onChange(event) {
+//           console.log(event.target.value)
+//       }
+//   }
   
   
 }
@@ -92,9 +109,8 @@ export default {
         margin-top: 3%;
         color: #c9a756;
     }
-    .btn-sm {
-        width: 200px;
-        margin-left: 10pt;
+    .question {
+        display: flex;
     }
     .deadpool {
         display: flex;
@@ -106,16 +122,17 @@ export default {
     }
     .addPlayers {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 5pt;
         padding-right: 10pt;
     }
     .phones {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         margin-left: 25pt;
         margin-bottom: 20pt;
         border: white;
     }
+   
 </style>

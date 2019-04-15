@@ -16,4 +16,8 @@ export default {
         background-color: #88a0a8;
         border: #88a0a8;
     }
+    .link {
+        display: flex;
+        justify-content: center;
+    }
 </style>
