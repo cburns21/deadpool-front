@@ -2,7 +2,7 @@
     <div class='fullPage'>
         <h1>
            <!-- {{this.leagueName}} -->
-           House Hodor
+           Team Unsullied
         </h1>
         <div class='board'>
             <ul class="scoreboard">

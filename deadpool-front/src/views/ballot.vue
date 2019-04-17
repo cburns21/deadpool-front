@@ -4,7 +4,7 @@
             <h1>The Ballot</h1>
             <div class='yourName'>
                 <label class='name' for="validationCustom01">Your name</label>
-                <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Zeke" required>
             </div>
             <div class='points'>
                  <h6>Do I Die? (4 points)</h6>
@@ -26,7 +26,7 @@
                 </div>
                 <ul class="list-group">
                     <li class="list-group-item">Do I die?<button>YES</button>
-                    <button >NO</button></li>
+                    <button>NO</button></li>
                     <li v-show="!isHidden" class="list-group-item">In which episode do I die?
                        <select v-model="jonEpisode" class="form-control">
                         <option>Episode 1</option>
@@ -571,7 +571,8 @@ export default {
                 'Content-Type': 'application/json'
             }
         }).then(res => res.json()).then(response => console.log('Success:', JSON.stringify(response))).catch(error => console.error('Error:', error))
-      }
+      },
+      
     },
   data () {
       return {
@@ -632,7 +633,9 @@ export default {
         margin-right: 2.5%;
         margin-left: 2.5%;
         color: white;
-    
+    }
+    .button:active {
+        background-color: #6d2828
     }
    .cards {
        display: flex;

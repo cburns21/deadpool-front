@@ -4,14 +4,14 @@
         <form>
             <div class="name">
                 <label for="validationCustom01">League Name</label>
-                <input v-model="name" type="text" class="form-control" id="validationCustom01" placeholder="Team name" required>
+                <input v-model="name" type="text" class="form-control" id="validationCustom01" placeholder="Team Unsullied" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>
             </div>
             <div class="password">
                 <label for="validationCustom02">League Password</label>
-                <input v-model="password" type="text" class="form-control" id="validationCustom02" placeholder="Team password" required>
+                <input v-model="password" type="password" class="form-control" id="validationCustom02" placeholder="******" required>
                 <div class="valid-feedback">
                     Looks good!
                 </div>

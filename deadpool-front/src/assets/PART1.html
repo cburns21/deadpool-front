@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:8080/#/create -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="http://localhost:8080/favicon.ico">
+    <link rel="stylesheet" href="./PART1_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./PART1_files/css" rel="stylesheet">
+    <title>deadpool-front</title>
+  <link href="./PART1_files/0.js" rel="prefetch"><link href="./PART1_files/1.js" rel="prefetch"><link href="http://localhost:8080/about.f1fead9f2282a22b9c51.hot-update.js" rel="prefetch"><link href="./PART1_files/about.js" rel="prefetch"><link href="./PART1_files/app.js" rel="preload" as="script"><style type="text/css">
+.btn-lg[data-v-11ef364a] {
+    background-color: #6D2828;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    border: black;
+    -webkit-box-shadow: 5px 5px black;
+            box-shadow: 5px 5px black;
+    color: white;
+}
+.myButton[data-v-11ef364a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+</style><style type="text/css">
+.btn-lg[data-v-05dfc999] {
+    background-color: #6D2828;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    border: black;
+    -webkit-box-shadow: 5px 5px black;
+            box-shadow: 5px 5px black;
+    color: white;
+}
+.myButton[data-v-05dfc999] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+</style><style type="text/css">
+.img-responsive[data-v-fae5bece] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 125px;
+    max-width: 150px;
+    float: left;
+}
+.subheader[data-v-fae5bece] {
+    font-weight: 900;
+    font-size: 30pt;
+    margin-bottom: 5%;
+}
+.header[data-v-fae5bece] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-shadow: 5px 5px #88a0a8;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-animation: scale-up-top-data-v-fae5bece 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-top-data-v-fae5bece 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-top-data-v-fae5bece {
+0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+}
+}
+@keyframes scale-up-top-data-v-fae5bece {
+0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+}
+}
+.buttons[data-v-fae5bece] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 3;
+        -ms-flex-positive: 3;
+            flex-grow: 3;
+}
+.btn-lg[data-v-fae5bece] {
+    background-color: #6D2828;
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 600px;
+    border: black;
+    -webkit-box-shadow: 5px 5px;
+            box-shadow: 5px 5px;
+}
+.homepage[data-v-fae5bece] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/img/wall.1be8b486.png);
+    background-size: cover; 
+    font-family:'Cinzel Decorative', cursive;;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: black;
+    /* justify-content: center; */
+}
+ 
+
+</style><script charset="utf-8" src="./PART1_files/about.js"></script><style type="text/css">
+h1[data-v-409814be] {
+     display:-webkit-box;
+     display:-ms-flexbox;
+     display:flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     color: #f7f9f9;
+     padding-top: 3%;
+     padding-bottom: 3%
+}
+.questions[data-v-409814be] {
+     color: #f7f9f9;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+     padding-top: 3%;
+}
+.topBallot[data-v-409814be] {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     /* width: 50vw; */
+     color: #f7f9f9;
+}
+.yourName[data-v-409814be] {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 5%;
+     /* justify-content: space-between; */
+}
+.name[data-v-409814be] {
+     width: 25vw;
+}
+h6[data-v-409814be] {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+             flex-direction: row;
+     -ms-flex-pack: distribute;
+         justify-content: space-around;
+}
+.points[data-v-409814be] {
+     padding-bottom: 3%;
+}
+button[data-v-409814be] {
+     background-color: #595752;
+     border: #595752;
+     margin-right: 2.5%;
+     margin-left: 2.5%;
+     color: white;
+}
+.button[data-v-409814be]:active {
+     background-color: #6d2828
+}
+.cards[data-v-409814be] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.card[data-v-409814be] {
+    background-color: #88a0a8;
+}
+.wholeBallot[data-v-409814be] {
+    background-color: #595752;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     font-family:'Cinzel Decorative', cursive;
+}
+img[data-v-409814be] {
+    width: 100%;
+    height: 425px;
+}
+li[data-v-409814be] {
+    background-color: #88a0a8;
+}
+.bigButton[data-v-409814be] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.btn-lg[data-v-409814be] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 50vw;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #6d2828;
+    border: #6d2828;
+}
+.card-title[data-v-409814be] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+</style><script charset="utf-8" src="./PART1_files/1.js"></script><style type="text/css">
+h1[data-v-3a0c9682] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family:'Cinzel Decorative', cursive;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 50px;;
+    color: #595752;
+    font-weight: bold;
+}
+</style><style type="text/css">
+h1[data-v-51227e5a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family:'Cinzel Decorative', cursive;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 50px;;
+    color: #595752;
+    font-weight: bold;
+}
+.border-bottom[data-v-51227e5a] {
+    padding-bottom: 10px;
+    border-width: 4px !important;
+}
+.board[data-v-51227e5a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-family:'Cinzel Decorative', cursive;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+h2[data-v-51227e5a] {
+    color: white;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+.fullPage[data-v-51227e5a] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background-image: url(/img/unsullied.65092746.png);
+    background-size: cover; 
+    height: 100vh;
+    width: 100vw;
+}
+.points[data-v-51227e5a] {
+    padding-left: 70pt;
+}
+.deadpool[data-v-51227e5a] {
+    color: white;
+    font-family:'Cinzel Decorative', cursive;
+    padding-top: 20pt;
+}
+</style><script charset="utf-8" src="./PART1_files/0.js"></script><style type="text/css">
+button {
+    color: #595752;
+    background-color: #88a0a8;
+    border: #88a0a8;
+}
+.link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+</style><style type="text/css">
+h1[data-v-5ad435e8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2%;
+  color: #88a0a8;
+}
+.team[data-v-5ad435e8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #595752;
+  width: 100wh;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family:'Cinzel Decorative', cursive;
+}
+.password[data-v-5ad435e8] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #f7f9f9;
+}
+.name[data-v-5ad435e8] {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   padding: 5%;
+   color: #f7f9f9;
+}
+label[data-v-5ad435e8] {
+  padding-right: 2%;
+  color: #f7f9f9;
+  font-size: 25px;
+}
+h3[data-v-5ad435e8] {
+  padding-right: 2%;
+  color: #f7f9f9;
+}
+.btn-lg[data-v-5ad435e8] {
+  /* display: flex; */
+  background-color: #88a0a8;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: #88a0a8;
+}
+.form-group[data-v-5ad435e8] {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+}
+</style><style type="text/css">
+.forms[data-v-0fd60cd4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #88a0a8;
+    height: 100vh;
+    width: 100vw;
+    font-family:'Cinzel Decorative', cursive;
+    color: #595752;
+}
+.name[data-v-0fd60cd4], .password[data-v-0fd60cd4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+button[data-v-0fd60cd4] {
+    -ms-flex-item-align: center;
+        align-self: center;
+    background-color: #595752;
+    border: #595752;
+    margin-top: 3%;
+    color: #c9a756;
+}
+.question[data-v-0fd60cd4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.deadpool[data-v-0fd60cd4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.header[data-v-0fd60cd4] {
+    padding-bottom: 5%;
+    font-size: 200%;
+}
+.addPlayers[data-v-0fd60cd4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 5pt;
+    padding-right: 10pt;
+}
+.phones[data-v-0fd60cd4] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 100pt;
+    margin-left: 25pt;
+    margin-bottom: 20pt;
+    border: white;
+}
+
+</style></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but deadpool-front doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"><div data-v-0fd60cd4="" class="forms" leagueballots="[object Object]" leagueplayers="[object Object],[object Object],[object Object],[object Object],[object Object]" leagues="[object Object],[object Object],[object Object],[object Object]"><div data-v-0fd60cd4="" class="header">Create a Team</div><form data-v-0fd60cd4=""><div data-v-0fd60cd4="" class="name"><label data-v-0fd60cd4="" for="validationCustom01">League Name</label><input data-v-0fd60cd4="" type="text" id="validationCustom01" placeholder="Team Unsullied" required="required" class="form-control"><div data-v-0fd60cd4="" class="valid-feedback">
+                Looks good!
+            </div></div><div data-v-0fd60cd4="" class="password"><label data-v-0fd60cd4="" for="validationCustom02">League Password</label><input data-v-0fd60cd4="" type="password" id="validationCustom02" placeholder="******" required="required" class="form-control"><div data-v-0fd60cd4="" class="valid-feedback">
+                Looks good!
+            </div></div><div data-v-0fd60cd4="" class="question"><label data-v-0fd60cd4="" for="validationCustom03">How Many players would you like to invite?</label><select data-v-0fd60cd4="" class="form-control"><option data-v-0fd60cd4="" selected="selected">Choose...</option><option data-v-0fd60cd4="" value="1">One</option><option data-v-0fd60cd4="" value="2">Two</option><option data-v-0fd60cd4="" value="3">Three</option><option data-v-0fd60cd4="" value="4">Four</option><option data-v-0fd60cd4="" value="5">Five</option><option data-v-0fd60cd4="" value="6">Six</option><option data-v-0fd60cd4="" value="7">Seven</option><option data-v-0fd60cd4="" value="8">Eight</option><option data-v-0fd60cd4="" value="9">Nine</option><option data-v-0fd60cd4="" value="10">Ten</option></select></div><div data-v-0fd60cd4="" class="phones"><div data-v-0fd60cd4=""><input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded">- <input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded"> -<input data-v-0fd60cd4="" type="tel" size="4" maxlength="4" placeholder="5555" class="rounded"></div><div data-v-0fd60cd4=""><input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded">- <input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded"> -<input data-v-0fd60cd4="" type="tel" size="4" maxlength="4" placeholder="5555" class="rounded"></div><div data-v-0fd60cd4=""><input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded">- <input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded"> -<input data-v-0fd60cd4="" type="tel" size="4" maxlength="4" placeholder="5555" class="rounded"></div><div data-v-0fd60cd4=""><input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded">- <input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded"> -<input data-v-0fd60cd4="" type="tel" size="4" maxlength="4" placeholder="5555" class="rounded"></div><div data-v-0fd60cd4=""><input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded">- <input data-v-0fd60cd4="" type="tel" size="3" maxlength="3" placeholder="555" class="rounded"> -<input data-v-0fd60cd4="" type="tel" size="4" maxlength="4" placeholder="5555" class="rounded"></div></div><div data-v-0fd60cd4="" class="deadpool"><label data-v-0fd60cd4="" for="validationCustom04">Set the Deadpool</label><input data-v-0fd60cd4="" type="integer" id="validationCustom02" placeholder="$$$" required="required" class="form-control"><div data-v-0fd60cd4="" class="valid-feedback">
+                Looks good!
+            </div></div></form><button data-v-0fd60cd4="" type="submit" class="btn-lg">Create League</button></div></div>
+    <audio src="../src/assets/song.mp3" autoplay="autoplay"></audio>
+   
+    
+  <script type="text/javascript" src="./PART1_files/app.js"></script>
+
+</body></html>
